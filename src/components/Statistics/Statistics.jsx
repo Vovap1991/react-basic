@@ -17,7 +17,7 @@ export const Statistics = ({ title, stats }) => {
       <StatisticsList>
         {stats.map((stat, index) => (
           <StatisticItem icon={icons[index]} statItem={stat} key={stat.id} />
-        ))}
+        ))};
       </StatisticsList>
     </>
   );
